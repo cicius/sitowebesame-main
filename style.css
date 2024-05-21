@@ -1,0 +1,738 @@
+body{
+    margin: 0;
+    font-family:"Kumbh Sans", Arial, Helvetica, sans-serif ;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    background-color: #eeeeee;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+header p{
+    font-family: "Pacifico";
+    padding-left: 18px;
+    font-size: 24px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding-right: 16px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.intro{
+    padding: 144px 24px;
+    background-image: url(../fotoprogettoweb/testatainkworld.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenitoretitolo h1{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    font-family: "Kumbh Sans" ;
+}
+
+.contenitore{
+    display: flex;
+    flex-direction: row;
+    padding: 48px 16px;
+}
+
+.contenitore div.ink{
+    width: 30%;
+}
+
+.contenitore div.ink p{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Kumbh Sans";
+}
+
+.contenitore div.info{
+    width: 70%;
+}
+
+.contenitore div.info p{
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-family: "Kumbh Sans";
+}
+
+.tatuatori{
+    width: 30%;
+}
+
+.tatuatori p{
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff3d00;
+    display: flex;
+    padding: 48px 16px;
+}
+
+.tatuatori a{
+    color: #ff3d00;
+    text-decoration: none;
+}
+
+.tatuatori a:hover{
+    text-decoration: underline;
+}
+
+.stili{
+    width: 30%;
+}
+
+.stili a{
+    color: #1ea5bc;
+    text-decoration: none;
+}
+
+.stili p{
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding: 48px 16px;
+    color: #1ea5bc;
+}
+
+.stili a:hover{
+    text-decoration: underline;
+}
+
+.elenco-tatuatori{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 16px;
+    width: 70%;
+    background-color: aqua;
+    padding-top: 48px 16px;
+   
+}
+
+.colore-1 {
+    background-color: #ff3d00;
+    border-radius: 50px 50px 50px 50px;
+    width: 275px;
+}
+
+.elenco-tatuatori img{
+    height: 250px;
+    width: 275px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.elenco-tatuatori p{
+    text-align: center;
+    padding: 32px 16px;
+    font-size: 24px;
+}
+
+.elenco-tatuatori a{
+    text-decoration: none;
+    color: black;
+}
+
+.elenco-tatuatori a:hover{
+    text-decoration: underline;
+}
+
+.colore-2{
+    background-color: #1ea5bc;
+    border-radius: 50px 50px 50px 50px;
+    width: 275px;
+}
+
+.tatuatori{
+    width: 30%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 32px;
+    background-color: #eeeeee;
+}
+
+footer nav ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.introtattoo{
+    background-image: url(../fotoprogettoweb/testatainkworld.png);
+    padding: 128px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introtattoo h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.info-inktatuatori{
+    display: flex;
+    padding: 48px 16px;
+}
+
+.ink-tattoo{
+    width: 30%;
+}
+
+.ink-tattoo p{
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff3d00;
+    line-height: 1.5;
+}
+
+.info-inktatuatori div.info{
+    width: 70%;
+}
+
+.info-inktatuatori div.info p{
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.photogallery{
+    width: 30%;
+
+}
+
+.photogallery a{
+    color: #ff3d00;
+    text-decoration: none;
+    display: flex;
+    padding: 48px 16px;
+}
+
+.photogallery p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.photogallery a:hover{
+    text-decoration: underline;
+}
+
+div.ink-stili {
+    width: 30%;
+}
+
+div.ink-stili p{
+    color: #1ea5bc;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.introbob{
+    background-image: url(..//fotoprogettoweb/bobtyrrell.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introbob h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.elenco-photogallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 18px;
+    margin-bottom: 18px;
+    width: 70%;
+}
+
+.elenco-photogallery img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introgargiulo{
+    background-image: url(..//fotoprogettoweb/gargiulocopertina.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introgargiulo h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introtoy{
+    background-image: url(..//fotoprogettoweb/amandatoycopertina.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introtoy h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introbrocca{
+    background-image: url(..//fotoprogettoweb/broccacopertina.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introbrocca h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introrossini{
+    background-image: url(..//fotoprogettoweb/elisarossinicopertina.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introrossini h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.intromarchini{
+    background-image: url(..//fotoprogettoweb/luigimarchini.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.intromarchini h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introsnt{
+    background-image: url(../fotoprogettoweb/simonesntcopertina.png);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introsnt h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introchiesa{
+    background-image: url(brandochiesacopertina.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introchiesa h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introgaldo{
+    background-image: url(..//fotoprogettoweb/galdomarco.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introgaldo h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.black{
+    background-color: black;
+}
+
+.black div.info{
+    color: white;
+}
+
+.black div.stili{
+    color: #1ea5bc;
+}
+
+.black {
+    background-color: black;
+}
+
+.black header p{
+    color: white;
+}
+
+.black header nav ul a {
+    color: white;
+}
+
+.black header p a{
+    color: white;
+}
+
+.black footer p a {
+    color: white;
+}
+
+.black footer nav ul a {
+    color: white;
+}
+
+.ink-tattoo p{
+    color: #ff3d00;
+}
+
+.introstoria{
+    background-image: url(..//fotoprogettoweb/testatainkworld.png);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: top;
+}
+
+.introstoria h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.info-inkbob div.ink-storia p{
+    color: #ff5dbe;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.ink-storia{
+    width: 30%;
+}
+
+.photogallerystoria{
+    width: 30%;
+}
+
+
+.photogallerystoria p{
+    color: #ff5dbe;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+    display: flex;
+    padding: 48px 16px;
+}
+
+.introrealistico{
+    background-image: url(..//fotoprogettoweb/realistico.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introrealistico h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.photogallerystili{
+    width: 30%;
+}
+
+
+.photogallerystili p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+    display: flex;
+    padding: 48px 16px;
+    color: #1ea5bc
+}
+
+.introgiapponese{
+    background-image: url(..//fotoprogettoweb/giapponese.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introgiapponese h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introoldschool{
+    background-image: url(..//fotoprogettoweb/oldschool.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introoldschool h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.intronewschool{
+    background-image: url(..//fotoprogettoweb/newschool.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intronewschool h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introfineline{
+    background-image: url(..//fotoprogettoweb/fineline.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introfineline h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introtribale{
+    background-image: url(..//fotoprogettoweb/tribale.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introtribale h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introlettering{
+    background-image: url(..//fotoprogettoweb/lettering.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introlettering h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.intropastelgore{
+    background-image: url(..//fotoprogettoweb/pastelgore.jpg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intropastelgore h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.introdotwork{
+    background-image: url(..//fotoprogettoweb/dotwork.jpeg);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introdotwork h1{
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.grigio{
+    background-color: #f0f0f0;
+}
+
+.colore-3{
+    transition: transform 0.3 ease-in-out;
+}
+
+.colore-3:hover{
+    transform: scale(1.4)
+}
+
+.photogallery-tattoo{
+    width: 30%;
+}
+
+.photogallery-tattoo p{
+    color: #ff3d00;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+    display: flex;
+    padding: 48px 16px
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .contenitore h1{
+        font-size: 64px;
+    }
+
+    .contenitoretitolo h1{
+        font-size: 32px;
+    }
+
+    .elenco-tatuatori{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .contenitore{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .raggruppare{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .introbob h1{
+        font-size: 64px;
+    }
+
+    .info-inkbob.info {
+        width: 100%;
+    }
+
+    .introgargiulo h1{
+        font-size: 64px;
+    }
+
+    .introbrocca h1{
+        font-size: 64px;
+    }
+
+    .introchiesa h1{
+        font-size: 64px;
+    }
+
+    .introgaldo h1{
+        font-size: 64px;
+    }
+
+    .introtoy h1{
+        font-size: 64px
+    }
+
+    .contenitoretitolo h1{
+        font-size: 64px;
+    }
+
+    .elenco-photogallery{
+        grid-template-columns: 1fr;
+    }
+
+    .colore-3{
+        transition: transform 0.3 ease-in-out;
+    }
+    
+    .colore-3:hover{
+        transform: scale(1.1)
+    }
+ 
+}
